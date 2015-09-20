@@ -68,6 +68,7 @@
     "wiki-plugin-rollup": "0.2",
     "wiki-plugin-roster": "0.1",
     "wiki-plugin-scatter": "0.3",
+    "wiki-plugin-search": "wardcunningham/wiki-plugin-search",
     "wiki-plugin-twadio": "0.2",
     "wiki-plugin-txtzyme": "0.2",
     "wiki-plugin-video": "0.2"
