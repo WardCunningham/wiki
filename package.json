@@ -1,12 +1,12 @@
 {
-  "name": "wiki",
-  "version": "0.7.0",
+  "name": "@wardcunningham/wiki",
+  "version": "0.7.1",
   "bin": "./index.js",
   "description": "Federated Wiki",
   "author": {
-    "name": "Paul Rodwell",
-    "email": "paul.rodwell@btinternet.com",
-    "url": "http://wiki-paul90.rhcloud.com"
+    "name": "Ward Cunningham",
+    "email": "ward@c2.com",
+    "url": "http://ward.fed.wiki.org"
   },
   "contributors": [
     {
@@ -15,9 +15,9 @@
       "url": "http://nrn.io"
     },
     {
-      "name": "Ward Cunningham",
-      "email": "ward@c2.com",
-      "url": "http://ward.fed.wiki.org"
+      "name": "Paul Rodwell",
+      "email": "paul.rodwell@btinternet.com",
+      "url": "http://wiki-paul90.rhcloud.com"
     }
   ],
   "license": "MIT",
@@ -27,7 +27,6 @@
     "config-chain": "1.1",
     "glob": "5.0",
     "optimist": "0.6",
-    "wiki-server": "0.6",
     "wiki-client": "0.5",
     "wiki-plugin-activity": "0.2",
     "wiki-plugin-audio": "0.1",
@@ -39,7 +38,6 @@
     "wiki-plugin-chart": "0.3",
     "wiki-plugin-code": "0.2",
     "wiki-plugin-data": "0.2",
-    "wiki-plugin-efficiency": "0.2",
     "wiki-plugin-factory": "0.2",
     "wiki-plugin-favicon": "0.2",
     "wiki-plugin-federatedwiki": "0.2",
@@ -50,16 +48,16 @@
     "wiki-plugin-html": "0.2",
     "wiki-plugin-image": "0.2",
     "wiki-plugin-line": "0.3",
-    "wiki-plugin-linkmap": "0.2",
     "wiki-plugin-logwatch": "0.2",
     "wiki-plugin-map": "0.2",
     "wiki-plugin-markdown": "0.2",
     "wiki-plugin-mathjax": "0.2",
     "wiki-plugin-metabolism": "0.2",
     "wiki-plugin-method": "0.2",
+    "wiki-plugin-microtalk": "wardcunningham/wiki-plugin-microtalk",
     "wiki-plugin-pagefold": "0.2",
     "wiki-plugin-paragraph": "0.2",
-    "wiki-plugin-parse": "0.2",
+    "wiki-plugin-plugins": "0.0.1",
     "wiki-plugin-pushpin": "0.3",
     "wiki-plugin-radar": "0.3",
     "wiki-plugin-reduce": "0.2",
@@ -68,9 +66,11 @@
     "wiki-plugin-rollup": "0.2",
     "wiki-plugin-roster": "0.1",
     "wiki-plugin-scatter": "0.3",
-    "wiki-plugin-twadio": "0.2",
-    "wiki-plugin-txtzyme": "0.2",
-    "wiki-plugin-video": "0.2"
+    "wiki-plugin-search": "*",
+    "wiki-plugin-transport": "*",
+    "wiki-plugin-video": "0.2",
+    "wiki-plugin-wikish": "*",
+    "wiki-server": "0.6"
   },
   "devDependencies": {
     "grunt": "~0.4",
