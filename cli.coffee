@@ -3,7 +3,7 @@
  *
  * Copyright Ward Cunningham and other contributors
  * Licensed under the MIT license.
- * https://github.com/fedwiki/wiki-node/blob/master/LICENSE.txt
+ * https://github.com/fedwiki/wiki/blob/master/LICENSE.txt
 ###
 
 # **cli.coffee** command line interface for the
@@ -86,7 +86,7 @@ argv = optimist
   )
   .options('version',
     alias     : 'v'
-    describe  : 'Optional config file.'
+    describe  : 'Show version number and exit'
   )
   .argv
 

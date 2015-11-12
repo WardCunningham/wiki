@@ -1,7 +1,9 @@
 {
   "name": "@wardcunningham/wiki",
-  "version": "0.7.2",
-  "bin": {"wiki": "./index.js"},
+  "version": "0.8.1-alpha-1",
+  "bin": {
+    "wiki": "./index.js"
+  },
   "description": "Federated Wiki",
   "author": {
     "name": "Ward Cunningham",
@@ -22,12 +24,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "coffee-script": "1.9",
+    "coffee-script": "1.10",
     "coffee-trace": "~1.4.0",
     "config-chain": "1.1",
     "glob": "5.0",
     "optimist": "0.6",
-    "wiki-client": "0.5",
+    "wiki-server": "0.7",
+    "wiki-client": "0.6",
     "wiki-plugin-activity": "0.2",
     "wiki-plugin-audio": "0.1",
     "wiki-plugin-bars": "0.3",
@@ -81,10 +84,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-node.git"
+    "url": "https://github.com/fedwiki/wiki.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-node/issues"
+    "url": "https://github.com/fedwiki/wiki/issues"
   },
   "engines": {
     "node": ">=0.10"
