@@ -73,8 +73,7 @@
     "wiki-plugin-search": "*",
     "wiki-plugin-transport": "*",
     "wiki-plugin-video": "0.2",
-    "wiki-plugin-wikish": "*",
-    "wiki-server": "0.6"
+    "wiki-plugin-wikish": "*"
   },
   "devDependencies": {
     "grunt": "~0.4",
